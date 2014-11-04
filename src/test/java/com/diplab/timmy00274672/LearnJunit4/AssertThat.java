@@ -6,6 +6,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class AssertThat {
@@ -23,5 +24,11 @@ public class AssertThat {
 	String responseString = "color";
 	assertThat(responseString,
 		anyOf(containsString("color"), containsString("colour")));
+    }
+    
+    @Ignore("Test is ignored")
+    @Test
+    public void test3(){
+	
     }
 }
