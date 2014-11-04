@@ -32,6 +32,7 @@ public class PrimeNumberCheckerTest {
 	this.expectedResult = expectedResult;
     }
 
+    @SuppressWarnings("rawtypes")
     @Parameterized.Parameters
     public static Collection primeNumbers() {
 	return Arrays.asList(new Object[][] {

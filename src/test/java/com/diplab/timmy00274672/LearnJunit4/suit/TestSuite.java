@@ -10,7 +10,7 @@ import com.diplab.timmy00274672.LearnJunit4.AppTest;
 @Suite.SuiteClasses({
   AppTest.class, CopyOfAppTest.class
 })
-public class FeatureTestSuite {
+public class TestSuite {
   // the class remains empty,
   // used only as a holder for the above annotations
 }
